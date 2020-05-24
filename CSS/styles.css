@@ -21,10 +21,26 @@ table{
 }
 
 
-thead>tr>:nth-of-type(n){
+thead>tr>:nth-child(n){
     background-color: var(--dark-blue);
     color:white;
     padding: 0 2em;
+}
+
+thead>tr>:nth-child(1){
+    background: #7887ab;
+}
+
+thead>tr>:nth-child(2){
+    background: #4f628e;
+}
+
+thead>tr>:nth-child(3){
+    background: #2e4172;
+}
+
+thead>tr>:nth-child(4){
+    background: #162955;
 }
 
 
@@ -69,9 +85,11 @@ tbody>tr:nth-child(even)>td:nth-child(even) {
     background-color: var(--light-gray);
 }
 
+
 tfoot tr>:nth-child(odd){
     background: var(--dark-gray);
 }
+
 
 tfoot tr>:nth-child(even){
     background: var(--gray);
