@@ -2,6 +2,43 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    border-collapse: collapse;
 }
 
+thead>tr>th:nth-of-type(n){
+    background-color: #061539;
+    color:white;
+    font-size: 20px;
+    padding: 3em;
+}
+
+
+tbody>tr>td:nth-child(n){
+    padding: 1em;
+}
+
+
+tbody>tr:nth-child(odd)>td:nth-child(odd)
+{
+    background-color: #DBDBDB;
+}
+
+tbody>tr:nth-child(odd)>td:nth-child(even)
+{
+    background-color: #ECECEC;
+}
+
+
+tbody>tr:nth-child(even)
+{
+    background-color: #ECECEC;
+}
+
+tbody>tr:nth-child(even)>td:nth-child(even)
+{
+    background-color: #fcfcfc;
+}
 
