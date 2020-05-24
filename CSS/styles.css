@@ -6,10 +6,17 @@
     font-size: 30px;
     text-align: center;
     border-collapse: collapse;
+
+    --dark-blue: #061539;
+    --dark-gray:#DBDBDB;
+    --gray: #ECECEC;
+    --light-gray: #fcfcfc;
+
+
 }
 
 thead>tr>th:nth-of-type(n){
-    background-color: #061539;
+    background-color: var(--dark-blue);
     color:white;
     font-size: 20px;
     padding: 3em;
@@ -23,22 +30,22 @@ tbody>tr>td:nth-child(n){
 
 tbody>tr:nth-child(odd)>td:nth-child(odd)
 {
-    background-color: #DBDBDB;
+    background-color: var(--dark-gray);
 }
 
 tbody>tr:nth-child(odd)>td:nth-child(even)
 {
-    background-color: #ECECEC;
+    background-color: var(--gray);
 }
 
 
 tbody>tr:nth-child(even)
 {
-    background-color: #ECECEC;
+    background-color: var(--gray);
 }
 
 tbody>tr:nth-child(even)>td:nth-child(even)
 {
-    background-color: #fcfcfc;
+    background-color: var(--light-gray);
 }
 
