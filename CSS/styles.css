@@ -1,17 +1,22 @@
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+table{
     font-family: Arial, sans-serif;
     font-size: 30px;
     text-align: center;
     border-collapse: collapse;
+    border-radius: 15px;
+    overflow: hidden;
 
     --dark-blue: #061539;
     --dark-gray:#DBDBDB;
     --gray: #ECECEC;
     --light-gray: #fcfcfc;
-
 
 }
 
