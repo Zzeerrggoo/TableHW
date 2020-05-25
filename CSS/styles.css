@@ -47,39 +47,33 @@ thead>tr>:nth-child(4){
 th>:nth-child(2) {
     font-size: 50px;
     font-weight: bold;
+
     margin-top: 0.8em;
 }
-
 
 th>:last-child{
     margin: 0.7em 0 ;
 }
 
-
 th>:first-child{
     margin: 1em 0;
 }
-
 
 tbody>tr>td:nth-child(n){
     padding: 1em;
 }
 
-
 tbody>tr:nth-child(odd) > td:nth-child(odd) {
     background-color: var(--dark-gray);
 }
-
 
 tbody>tr:nth-child(odd)>td:nth-child(even) {
     background-color: var(--gray);
 }
 
-
 tbody>tr:nth-child(even) {
     background-color: var(--gray);
 }
-
 
 tbody>tr:nth-child(even)>td:nth-child(even) {
     background-color: var(--light-gray);
@@ -90,11 +84,9 @@ tfoot tr>:nth-child(odd){
     background: var(--dark-gray);
 }
 
-
 tfoot tr>:nth-child(even){
     background: var(--gray);
 }
-
 
 tfoot button:nth-child(n){
     width: 130px;
@@ -108,4 +100,9 @@ tfoot button:nth-child(n){
 
     background-color: #d3d3d3;
     border: 2px solid #b9b9b9;
+}
+
+tbody>tr>td:first-child{
+    padding: 0 2em;
+    text-align: left;
 }
